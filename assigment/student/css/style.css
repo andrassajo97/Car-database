@@ -1,0 +1,104 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.header table{
+    background-color: rgba(255,255,255,.5);
+    width: 100%;
+    height: 170px;
+}
+
+.header button{
+    background-color: rgba(211,211,211,.3);
+    color: black;
+    font-size: 15px;
+    width: 150px;
+    display: none;
+    padding: 10px;
+    border: 1px solid black;
+    border-top: none;
+    cursor: pointer;
+}
+
+.menuitem{
+    background-color: rgba(211,211,211,.5);
+    color: black;
+    font-size: 25px;
+    padding: 1em;
+    width: 200px;
+    opacity: 0.5;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.menuitem:hover {opacity: 1};
+
+.menuitem button{
+    display: none;
+}
+
+#sauto{
+    cursor: pointer;
+}
+
+#content{
+    background-color:  rgba(255,255,255,.8);
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+}
+
+#content table{
+    width: 100%;
+    height: 400px;
+}
+
+#addCar table{
+    height: 400px;
+}
+
+#addCar button{
+    background-color: rgba(211,211,211,.3);
+    color: black;
+    font-size: 30px;
+    width: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#addCar button:hover{
+    opacity: 1;
+}
+
+#addManu table{
+    height: 400px;
+}
+#addManu button{
+    background-color: rgba(211,211,211,.3);
+    color: black;
+    font-size: 40px;
+    width: 120px;
+    border: 1px solid black;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#addManu button:hover{
+    opacity: 1;
+}
+
+.content-list{
+    font-size: 20px;
+    color: black;
+}
+
+.modal {
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+}
